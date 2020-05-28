@@ -18,6 +18,7 @@ public class DataUtil extends BaseTest {
         // Find the test case start row.
         String testName = m.getName();
         System.out.println("Test name is: " + testName);
+        
         int testCaseRowNum = 1;
         for (testCaseRowNum = 1; testCaseRowNum < rows; testCaseRowNum++) {
 
