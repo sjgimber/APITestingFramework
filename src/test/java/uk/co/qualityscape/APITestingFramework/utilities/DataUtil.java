@@ -9,7 +9,7 @@ import java.util.Hashtable;
 
 public class DataUtil extends BaseTest {
 
-    // My comment
+    // My comment 2
     @DataProvider (name = "data")
     public Object[][] getData(Method m) {
 
@@ -18,7 +18,7 @@ public class DataUtil extends BaseTest {
         // Find the test case start row.
         String testName = m.getName();
         System.out.println("Test name is: " + testName);
-        
+
         int testCaseRowNum = 1;
         for (testCaseRowNum = 1; testCaseRowNum < rows; testCaseRowNum++) {
 
